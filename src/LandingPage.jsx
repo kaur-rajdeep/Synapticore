@@ -146,8 +146,8 @@ const LandingPage = () => {
           </h1>
 
           <p className="text-md md:text-xl lg:text-xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Empowering Innovation in Medical Technology through cutting-edge
-            research and life-saving devices
+            Innovating in Medical Technology through cutting-edge research and
+            life-saving devices
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -190,13 +190,13 @@ const LandingPage = () => {
               </p>
               <p className="text-md lg:text-lg text-slate-300 leading-relaxed">
                 Our focus on high-impact medical devices positions us at the
-                critical intersection of science and healthcare, where we
+                critical intersection of science and healthcare, where we will
                 develop and deliver life-saving technologies that make a real
                 difference.
               </p>
               <p className="text-md lg:text-lg text-slate-300 leading-relaxed">
                 Operating under prestigious national institute licensing, we
-                maintain the highest standards of safety, efficacy, and
+                maintain the highest standards of safety, efficiency, and
                 regulatory compliance in all our specialized device
                 manufacturing.
               </p>
@@ -256,7 +256,7 @@ const LandingPage = () => {
                 <div className="flex-1">
                   <div className="flex items-center gap-4 mb-4">
                     <div className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-xl flex items-center justify-center flex-shrink-0">
-                      <Zap className="w-5 h-5 text-slate-900"/>
+                      <Zap className="w-5 h-5 text-slate-900" />
                     </div>
                     <div>
                       <h3 className="sm:text-md md:text-lg lg:text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors m-0">
@@ -307,14 +307,14 @@ const LandingPage = () => {
             <div className="group bg-gradient-to-r from-slate-800/40 to-slate-900/40 border border-slate-700/50 rounded-3xl p-8 hover:border-cyan-500/30 transition-all duration-300">
               <div className="flex items-start space-x-6">
                 <div className="flex-1">
-                <div className="flex items-center gap-4 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Heart className="w-5 h-5 text-slate-900" />
-                </div>
-                  <h3 className="sm:text-md md:text-lg lg:text-2xl font-bold text-white mb-0 group-hover:text-cyan-400 transition-colors">
-                    Plasma Protein Isolation & Purification System
-                  </h3>
-                </div>
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Heart className="w-5 h-5 text-slate-900" />
+                    </div>
+                    <h3 className="sm:text-md md:text-lg lg:text-2xl font-bold text-white mb-0 group-hover:text-cyan-400 transition-colors">
+                      Plasma Protein Isolation & Purification System
+                    </h3>
+                  </div>
                   <p className="text-slate-300 text-md md:text-lg mb-6 leading-relaxed">
                     Sophisticated biotechnology system engineered for the
                     isolation and purification of critical plasma proteins,
@@ -355,19 +355,23 @@ const LandingPage = () => {
             Official Licensing
           </div>
           <h2 className="leading-normal text-2xl md:text-4xl lg:text-5xl  font-bold mb-12 bg-gradient-to-r from-white to-[#d6f8f2] bg-clip-text text-transparent">
-            Licensed By
+            Technology Transferred from
           </h2>
           <div className="bg-gradient-to-r from-slate-800/40 to-slate-900/40 border border-slate-700/50 rounded-3xl p-4 sm:p-6 lg:p-8">
-           
-              <div className="flex-1 min-w-0">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-200 mb-2 leading-normal">
-                  Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum
-                </h3>
-                <p className="text-sm sm:text-base text-emerald-400 font-medium mb-1">(SCTIMST)</p>
+            <div className="flex-1 min-w-0">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-200 mb-2 leading-normal">
+                Sree Chitra Tirunal Institute for Medical Sciences and
+                Technology, Trivandrum
+              </h3>
+              <p className="text-sm sm:text-base text-emerald-400 font-medium mb-1">
+                (SCTIMST)
+              </p>
             </div>
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-              An Institution of National Importance<br className="hidden sm:inline" />
-              <span className="sm:hidden"> - </span>Department of Science and Technology, Government of India
+              An Institution of National Importance
+              <br className="hidden sm:inline" />
+              <span className="sm:hidden"> - </span>Department of Science and
+              Technology, Government of India
             </p>
           </div>
         </div>
@@ -390,31 +394,33 @@ const LandingPage = () => {
           </div>
 
           <div className="bg-gradient-to-r from-slate-800/40 to-slate-900/40 border border-slate-700/50 rounded-3xl p-8">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-1 gap-8">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-xl flex items-center justify-center">
                   <Mail className="w-6 h-6 text-slate-900" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">Email</h4>
-                  <p className="text-slate-300">Info@panaceainfosec.com</p>
+                  <p className="text-slate-300">vikrant.jee@synapticoretechnology.com</p>
                 </div>
               </div>
 
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-6 h-6 text-slate-900" />
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <h4 className="font-semibold text-white mb-1">Location</h4>
-                  <p className="text-slate-300">Panacea Infosec (P) Ltd.</p>
+                  <p className="text-slate-300">
+                    Synapticore Technology Pvt. Ltd.
+                  </p>
                   <p className="text-slate-400 text-sm">
                     Plot no - 226, 3rd floor, A - 2,
                     <br />
                     Sector - 17 Dwarka, New Delhi - 110075
                   </p>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */}
             </div>
           </div>
         </div>
