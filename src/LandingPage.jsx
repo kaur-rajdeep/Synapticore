@@ -10,7 +10,6 @@ import {
   MapPin,
   ChevronRight,
   Star,
-  Building2,
 } from "lucide-react";
 
 const LandingPage = () => {
