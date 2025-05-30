@@ -313,12 +313,6 @@ const LandingPage = () => {
                 develop and deliver life-saving technologies that make a real
                 difference.
               </p>
-              <p className={`text-md lg:text-lg leading-relaxed ${themeClasses.aboutText}`}>
-                Operating under prestigious national institute licensing, we
-                maintain the highest standards of safety, efficiency, and
-                regulatory compliance in all our specialized device
-                manufacturing.
-              </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
