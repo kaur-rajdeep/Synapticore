@@ -514,7 +514,7 @@ const LandingPage = () => {
                 </div>
                 <div>
                   <h4 className={`font-semibold mb-1 ${themeClasses.contactItemTitle}`}>Email</h4>
-                  <p className={`text-xs sm:text-sm md:text-xl ${themeClasses.contactItemText}`}>vikrant.jee@synapticoretechnology.com</p>
+                  <p className={`text-xs sm:text-sm md:text-xl ${themeClasses.contactItemText}`}>info@synapticoretechnology.com</p>
                 </div>
               </div>
             </div>
